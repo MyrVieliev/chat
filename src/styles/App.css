@@ -73,7 +73,7 @@ body {
 .chat-item_time {
 	font-size: 10px;
 	align-self: flex-end;
-	font-family: 'Rubik-Light'
+	font-family: 'Rubik-Light';
 }
 
 .message-container {
