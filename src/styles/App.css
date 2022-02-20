@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Rubik-Light';
+	src: url('../assets/fonts/Rubik-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Rubik-Regular';
+	src: url('../assets/fonts/Rubik-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+	font-family: 'Rubik-Regular';
+}
+
+#root {
+	width: 100vw;
+	height: 100vh;
+}
+
+.app {
+	margin: 0 auto;
+	max-width: 1440px;
+	height: 850px;
+	padding: 0px 15px;
+	background-color: #0d0d0d;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.chat-empty {
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+}
+
+.chat-container {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	overflow: auto;
+	padding-top: 15px;
+}
+
+.chat-item {
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #252525;
+	border-radius: 2px;
+}
+
+.chat-item_body {
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+
+.chat-item_time {
+	font-size: 10px;
+	align-self: flex-end;
+	font-family: 'Rubik-Light'
+}
+
+.message-container {
+	min-height: 70px;
+	margin: 20px 0px;
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	background-color: #252525;
+	border-radius: 15px;
+}

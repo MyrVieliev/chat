@@ -1,0 +1,10 @@
+.myButton {
+	height: 30px;
+	width: 30px;
+	background: url('../../assets/images/send-icon.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	margin: 5px;
+	cursor: pointer;
+}
